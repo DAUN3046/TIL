@@ -1,6 +1,14 @@
 # Layout
 > 레이아웃 설정에 필요한 개념들
 
+## Margin, Border, Padding
+![image](https://user-images.githubusercontent.com/49031232/161989788-ef6cffc9-14a0-4c95-a47d-840357e29f7a.png)
+
+`border`는 테두리, `margin`은 테두리 바깥 여백, `padding`은 테두리 안쪽 여백이다.
+
+추울 때 패딩 입는다. 바깥쪽부터 margin - border - padding - content 순서 기억해두자.
+
+
 ## Block, Inline
 | |Block|Inline|
 | :---: | --- | --- |
