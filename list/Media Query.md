@@ -9,7 +9,7 @@
 
 그러면 다음과 같이 스타일을 변경할 수 있다.
 
-- 형식 예시1
+<예시1>
 
 ```css
 @media all (min-width: 360px) and (max-width: 720px) {
