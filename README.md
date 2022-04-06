@@ -3,7 +3,7 @@
 
 ## HTML/CSS
 - [Basic Structure](https://github.com/DAUN3046/TIL/blob/main/list/Basic%20Structure.md)
-- [Comment: Disqus]()
+- [Comment: Disqus](https://github.com/DAUN3046/TIL/blob/main/list/Comment:%20Disqus.md)
 - [Flex, Grid]()
 - [Media Query]()
 
