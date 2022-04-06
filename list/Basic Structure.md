@@ -8,7 +8,7 @@
 </html>
 ```
 
-- **<!DOCTYPE html>** HTML5 문서 선언
+- **\<!DOCTYPE html>\** HTML5 문서 선언
 - **<html>···</html>** 문서의 시작과 끝
 - **<head>···</head>** 메타데이터 부분
 - **<body>···</body>** 출력되는 정보 부분
