@@ -2,6 +2,13 @@
 
 다양한 모바일 기기들과 창으로 볼 때에도 가독성이 좋게끔, 화면의 크기에 따라 동적으로 꿈틀대는 사이트를 만들 수 있다.
 
+이를 위해 html의 <head>에 viewport meta tag를 사용해준다.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+그러면 다음과 같이 스타일을 변경할 수 있다.
+
 - 형식 예시1
 
 ```css
