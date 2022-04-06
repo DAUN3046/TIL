@@ -74,7 +74,7 @@ Block과 Inline 요소의 성격을 바꿀 때 사용한다.
 
 ※ 계속 공부하며 추가할 것.
 
-## 좋은 참고자료들
+## 공유받은 좋은 참고자료들
 - CSS 사전 https://opentutorials.org/course/718/3798
 - CSS 단위 https://webdesign.tutsplus.com/ko/articles/7-css-units-you-might-not-know-about--cms-22
 - Flex 간단 설명 https://studiomeal.com/archives/197
