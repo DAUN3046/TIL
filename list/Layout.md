@@ -68,7 +68,27 @@ Block과 Inline 요소의 성격을 바꿀 때 사용한다.
 }
 ``` 
 이 코드를 적용하고 나면 컨테이너 내의 각 item들은 자신이 가진 내용만큼만 자리를 차지하게 된다.
-  
+
+<예시 1>
+```css
+#flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+```
+이 경우 컨테이너 내의 item들이 왼쪽에서부터 일렬로 정렬된다. 어떤 값을 설정해주는가에 따라
+배치가 달라진다. 예를 들어, 다음과 같은 경우엔 item들이 가운데에서 상하로 정렬된다.
+
+<예시 2>
+```css
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+	
 ## Grid
 > 2차원 행렬 구현
 
