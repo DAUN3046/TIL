@@ -49,6 +49,10 @@ Block과 Inline 요소의 성격을 바꿀 때 사용한다.
 ## Flex
 > 1차원 일렬로 구현
 
+![]("https://user-images.githubusercontent.com/49031232/161985295-2ac557b4-d8a0-4a56-8bfc-5b119623544c.png">)
+*© 2017 Victoria Kirst \<vrk@stanford.edu>*
+
+ 
 ## Grid
 > 2차원 행렬 구현
 
