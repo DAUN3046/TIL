@@ -49,8 +49,9 @@ Block과 Inline 요소의 성격을 바꿀 때 사용한다.
 ## Flex
 > 1차원 일렬로 구현
 
-![]("https://user-images.githubusercontent.com/49031232/161985295-2ac557b4-d8a0-4a56-8bfc-5b119623544c.png">)
-*© 2017 Victoria Kirst \<vrk@stanford.edu>*
+|![image](https://user-images.githubusercontent.com/49031232/161988608-90e59739-9777-40e5-884a-219ed8f6ac1d.png)|
+|:--:| 
+|*© 2017 Victoria Kirst \<vrk@stanford.edu>*|
 
  
 ## Grid
