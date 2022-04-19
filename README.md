@@ -7,6 +7,7 @@
 - [DOM](https://github.com/DAUN3046/TIL/blob/main/list/DOM.md)
 - [Layout](https://github.com/DAUN3046/TIL/blob/main/list/Layout.md)
 - [Media Query](https://github.com/DAUN3046/TIL/blob/main/list/Media%20Query.md)
+- [Path](https://github.com/DAUN3046/TIL/blob/main/list/Path.md)
 - [VScode Tip: Emmet](https://github.com/DAUN3046/TIL/blob/main/list/Emmet.md)
 
 ## Algorithm
