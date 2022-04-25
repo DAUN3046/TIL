@@ -12,6 +12,7 @@
 - [VScode Tip: Emmet](https://github.com/DAUN3046/TIL/blob/main/list/Emmet.md)
 
 ## JS
+- [JSON](https://github.com/DAUN3046/TIL/blob/main/list/JSON.md)
 - [Scope](https://github.com/DAUN3046/TIL/blob/main/list/Scope.md)
 - [Spread Operator](https://github.com/DAUN3046/TIL/blob/main/list/Spread%20Operator.md)
 
