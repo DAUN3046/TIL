@@ -15,6 +15,7 @@
 - [JSON](https://github.com/DAUN3046/TIL/blob/main/list/JSON.md)
 - [Scope](https://github.com/DAUN3046/TIL/blob/main/list/Scope.md)
 - [Spread Operator](https://github.com/DAUN3046/TIL/blob/main/list/Spread%20Operator.md)
+- [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
 ## Algorithm
 - [Backjoon](https://github.com/DAUN3046/BAEKJOON)
