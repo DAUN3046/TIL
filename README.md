@@ -2,7 +2,6 @@
 매일매일 배워나가는 것들에 대해 적는 공간
 
 ## HTML/CSS
-- [async, await](https://github.com/DAUN3046/TIL/blob/main/list/async%2C%20await.md)
 - [Basic Structure](https://github.com/DAUN3046/TIL/blob/main/list/Basic%20Structure.md)
 - [Comment: Disqus](https://github.com/DAUN3046/TIL/blob/main/list/Comment:%20Disqus.md)
 - [DOM](https://github.com/DAUN3046/TIL/blob/main/list/DOM.md)
@@ -12,6 +11,7 @@
 - [VScode Tip: Emmet](https://github.com/DAUN3046/TIL/blob/main/list/Emmet.md)
 
 ## JS
+- [async, await](https://github.com/DAUN3046/TIL/blob/main/list/async%2C%20await.md)
 - [JSON](https://github.com/DAUN3046/TIL/blob/main/list/JSON.md)
 - [Scope](https://github.com/DAUN3046/TIL/blob/main/list/Scope.md)
 - [Spread Operator](https://github.com/DAUN3046/TIL/blob/main/list/Spread%20Operator.md)
