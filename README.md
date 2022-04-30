@@ -21,6 +21,7 @@
 - [Backjoon](https://github.com/DAUN3046/BAEKJOON)
 - [SW Expert Academy](https://github.com/DAUN3046/SW_Expert_Academy)
 - [Elice](https://github.com/DAUN3046/Elice/tree/main/Algorithm)
+- [Python Algorithm Deepning Study](https://github.com/ManduTheCat/elice_algorithm_deepening_study/pulls)
 - [etc.](https://github.com/DAUN3046/codingTest)
 
 ## Sapjil
