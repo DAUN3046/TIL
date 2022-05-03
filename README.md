@@ -12,6 +12,7 @@
 
 ## JS
 - [async, await](https://github.com/DAUN3046/TIL/blob/main/list/async%2C%20await.md)
+- [Event Loop](https://github.com/DAUN3046/TIL/blob/main/list/Event%20Loop.md)
 - [JSON](https://github.com/DAUN3046/TIL/blob/main/list/JSON.md)
 - [Scope](https://github.com/DAUN3046/TIL/blob/main/list/Scope.md)
 - [Spread Operator](https://github.com/DAUN3046/TIL/blob/main/list/Spread%20Operator.md)
