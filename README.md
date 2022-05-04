@@ -18,6 +18,9 @@
 - [Spread Operator](https://github.com/DAUN3046/TIL/blob/main/list/Spread%20Operator.md)
 - [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
+## TS
+<!-- - [Interface]() -->
+
 ## Algorithm
 - [Backjoon](https://github.com/DAUN3046/BAEKJOON)
 - [SW Expert Academy](https://github.com/DAUN3046/SW_Expert_Academy)
