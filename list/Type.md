@@ -277,7 +277,7 @@ type T8 = ReturnType<Function>;
 ```
 ### Required\<T\>
 T의 모든 프로퍼티가 필수로 설정된 타입
-```typerscript
+```typescript
 interface Props {
   a?: number;
   b?: string;
