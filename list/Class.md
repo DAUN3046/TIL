@@ -4,6 +4,7 @@
 
 ## 접근 제어자
 - public > protected > private
+
 ts는 package 개념이 없으므로 default 접근 제어자도 존재하지 않는다.
 
 ### public
@@ -13,6 +14,7 @@ ts는 package 개념이 없으므로 default 접근 제어자도 존재하지 �
 
 ### protected
 멤버가 포함된 클래스와 그 하위의 클래스에 대해 외부에서의 접근을 막는다.
+
 하위 클래스에서는 사용 가능하다.
 
 ### private
