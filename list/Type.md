@@ -129,7 +129,7 @@ interface User {
 }
 
 const user: Readonly<User> = {
-  id: 1001,
+  id: 1001;
 };
 
 user.id = 1002; // error
@@ -180,4 +180,59 @@ const KoRestaurant: Restaurants = {
 }
 ```
 ### Exclude\<T, U\>
+T 중 U와 겹치는 타입을 제외한 타입
+```typescript
+type OnlyNumber = Exclude<string|number, string>;
+```
 ### Extract\<T, U\>
+T중 U와 겹치는 타입만 추출
+```typescript
+type OnlyNumber = {
+  firstNum: 1001;
+  secondNum: 1002;
+}
+
+type NumnStr = {
+  firstNum: 1001;
+  firstStr: "A";
+}
+
+type Extracted = Extract<OnlyNumber|NumnStr, NumnStr>;
+// NumnStr과 같은 타입
+```
+### NonNullable\<T\>
+null과 undefined를 제외한 타입
+```typescript
+type T0 = NonNullable<string|number|undefined>;
+// string과 number만
+type T1 = NonNullable<null, undefined, string[]>;
+// string[]만
+```
+### Parameters\<T\>
+함수 매개변수 타입을 튜플로 구성
+```typescript
+declare function f1(arg: { a: number; b: string }) 
+
+type T0 = Parameters<() => string>;
+// type T0 = []
+type T1 = Parameters<(s: string) => void>;
+// type T1 = [s: string]
+type T2 = Parameters<<T>(arg:T) => T>;
+// type T2 = [arg: unknown]
+type T3 = Parameters<typeof f1>;
+// type T3 = [arg: {
+    a: number;
+    b: string;
+  }]
+type T4 = Parameters<any>;
+// type T4 = unknown[]
+type T5 = Parameters<never>;
+// type T5 = never
+type T6 = Parameters<string>;
+// error! typr T6 = never
+type T7 = Parameters<Function>
+// error! type T7 = never
+```
+
+# 예제 참고자료
+https://www.typescriptlang.org/docs/handbook/utility-types.html
