@@ -19,7 +19,8 @@
 - [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
 ## TS
-<!-- - [Interface]() -->
+- [Type]()
+<!-- - [Interface](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md) -->
 
 ## Algorithm
 - [Backjoon](https://github.com/DAUN3046/BAEKJOON)
