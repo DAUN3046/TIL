@@ -234,5 +234,5 @@ type T7 = Parameters<Function>
 // error! type T7 = never
 ```
 
-# 예제 참고자료
+# 참고자료
 https://www.typescriptlang.org/docs/handbook/utility-types.html
