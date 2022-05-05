@@ -150,7 +150,7 @@ const x: Record<ClassA, Info> = {
 }
 ```
 ### Pick\<T, K\>
-집합을 선택하여 저장
+사용할 프로퍼티만 집합으로 선택하여 저장
 ```typescript
 interface Restaurant {
   name: string;
@@ -164,3 +164,20 @@ const KoRestaurant: Restaurants = {
   open: true // error 선택하지 않은 값
 }
 ```
+### Omit\<T, K\>
+모든 프로퍼티에서 K를 제거한 타입
+```typescript
+interface Restaurant {
+  name: string;
+  open: boolean;
+}
+
+type Restaurants = Omit<Restaurant, 'name'>;
+
+const KoRestaurant: Restaurants = {
+  name: "명가숯불갈비", // error 제외시킨 값
+  open: true
+}
+```
+### Exclude\<T, U\>
+### Extract\<T, U\>
