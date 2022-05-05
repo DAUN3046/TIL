@@ -233,6 +233,58 @@ type T6 = Parameters<string>;
 type T7 = Parameters<Function>
 // error! type T7 = never
 ```
+### ConstructorParameters<\T\>
+생성자 함수 타입의 모든 매개변수 타입 추출.
+모든 매개변수 타입을 가지는 튜플/배열 타입 생성. T가 함수가 아니면 never.
+```typescript
+type T0 = ConstructorParameters<ErrorConstructor>;
+// type T0 = [message?: string]
+type T1 = ConstructorParameters<FunctionConstructor>;
+// type T1 = string[]
+type T2 = ConstuctorParameters<RegExpConstructor>;
+// type T2 = [pattern: string | RegExp, flags?: string]
+type T3 = ConstuctorParameters<any>;
+// type T3 = unknown[]
+type T4 = ConstuctorParameters<Function>;
+// type T4 = never
+```
+### ReturnType\<T\>
+함수 T의 반환 타입으로 구성된 타입 생성
+```typescript
+declare function f1(): {a: number, b: string};
 
+type T0 = ReturnType<() => string>
+// type T0 = string
+type T1 = ReturnType<(s: string) => void>;
+// type T1 = void
+type T2 = ReturnType<<T>() => T>;
+// type T2 = unknown
+type T3 = ReturnType<<T extendsU, U extends number[]>() => T>;
+// type T3 = number[]
+type T4 = ReturnType<typeof f1>;
+// type T4 = {
+    a: number;
+    b: string;
+  }
+type T5 = ReturnType<any>;
+// type T5 = any
+type T6 = ReturnType<never>;
+// type T6 = never
+type T7 = ReturnType<string>;
+// error! type T7 = any
+type T8 = ReturnType<Function>;
+// error! type T8 = any
+```
+### Required\<T\>
+T의 모든 프로퍼티가 필수로 설정된 타입
+```typerscript
+interface Props {
+  a?: number;
+  b?: string;
+}
+const obj: Props = { a: 5 };
+const obj2: Required<Props> = {a: 5};
+// error! interface에서 optional 변수여도 Required로 부르면 필수! b가 없어서 에러남.
+```
 # 참고자료
 https://www.typescriptlang.org/docs/handbook/utility-types.html
