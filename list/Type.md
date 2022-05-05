@@ -107,3 +107,34 @@ function error(msg: string): never {
   throw new Error(msg);
 }
 ```
+## Utility Types
+### Partial\<T\>
+프로퍼티의  만드는 타입 구성
+```typescript
+interface Size {
+  height:number;
+  weight: number;
+}
+
+type blockSize = Partial<Size>;
+const empty: blockSize = {};
+const triangle: blockSize = { height: 30};
+const rectangle: blockSize = { height: 10, weight: 20};
+```
+### Readonly\<T\>
+재할당 방지
+```typescript
+interface User {
+  id: number;
+}
+
+const user: Readonly<User> = {
+  id: 1001,
+};
+
+user.id = 1002; // error
+```
+### Record\<T\>
+
+
+### Pick\<T, K\>
