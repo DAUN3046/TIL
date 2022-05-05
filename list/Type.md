@@ -135,6 +135,32 @@ const user: Readonly<User> = {
 user.id = 1002; // error
 ```
 ### Record\<T\>
+프로퍼티 키를 K, 값을 T로 하는 타입 생성
+```typescript
+interface Info {
+  name: string;
+}
 
+type ClassA = |'num1'|'num2'|'num3';
 
+const x: Record<ClassA, Info> = {
+  num1: { name: "Kim" },
+  num2: { name: "Lee" },
+  num3: { name: "Park" },
+}
+```
 ### Pick\<T, K\>
+집합을 선택하여 저장
+```typescript
+interface Restaurant {
+  name: string;
+  open: boolean;
+}
+
+type Restaurants = Pick<Restaurant, 'name'>;
+
+const KoRestaurant: Restaurants = {
+  name: "명가숯불갈비",
+  open: true // error 선택하지 않은 값
+}
+```
