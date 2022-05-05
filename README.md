@@ -19,7 +19,7 @@
 - [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
 ## TS
-- [Type]()
+- [Type](https://github.com/DAUN3046/TIL/blob/main/list/Type.md)
 <!-- - [Interface](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md) -->
 
 ## Algorithm
