@@ -19,8 +19,9 @@
 - [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
 ## TS
-- [Type](https://github.com/DAUN3046/TIL/blob/main/list/Type.md)
 - [Class](https://github.com/DAUN3046/TIL/blob/main/list/Class.md)
+- [Type](https://github.com/DAUN3046/TIL/blob/main/list/Type.md)
+- [Generic](https://github.com/DAUN3046/TIL/blob/main/list/Generic.md)
 <!-- - [Interface](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md) -->
 
 ## Algorithm
