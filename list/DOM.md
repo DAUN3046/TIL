@@ -84,3 +84,31 @@ console.log(divEx.textContent);
     
   "
 ```
+## 요소를 가져오는 방법
+### querySelector
+|종류|특징|
+|:--:|:--:|
+|`querySelectorAll(css선택자)`|해당 Element의 CSS선택자에 대응하는 요소 모두를 반환|
+|`querySelector(css선택자)`|주어진 Element의 CSS선택자에 대응하는 요소 중 첫 번째 요소만 반환|
+#### 예시코드
+```js
+let cat = document.querySelector('#cat'); // id명이 cat인 요소
+let first = document.querySelectorAll('.dog')[0]; // class명이 dog인 요소 중 첫번째 요소
+let first2 = document.querySelector('.dog'); // 위와 같은 코드
+let items = document.querySelectorAll('#cat, .dog'); // id명이 cat인 요소들과 class명이 dog인 요소들
+```
+### getElement(s)By
+|종류|특징|
+|:--:|:--:|
+|`getElementsByTagName('tag명')`|주어진 tag에 해당하는 모든 요소 반환|
+|`getElementById('id명')`|해당 id의 요소 반환|
+|`getElementsByClassName('class명')`|해당 class의 요소 반환|
+
+> id는 고유한 값이므로 `getElement` 뒤에 s를 붙이지 않는다.
+
+#### 예시코드
+```js
+let cat = document.getElementById('cat'); // id명이 cat인 요소
+let dog = document.getElementsByClassName('dog'); // class명이 dog인 요소
+let divs = document.getElementsByTagName('div'); // 문서 내 모든 div 태그들 
+```
