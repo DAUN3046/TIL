@@ -19,7 +19,7 @@
 - [Promise](https://github.com/DAUN3046/TIL/blob/main/list/Promise.md)
 
 ## Node.js
-- [Mongoose Populate]((https://github.com/DAUN3046/TIL/blob/main/list/Mongoose%20Populate.md))
+- [Mongoose Populate](https://github.com/DAUN3046/TIL/blob/main/list/Mongoose%20Populate.md)
 
 ## TS
 - [Class](https://github.com/DAUN3046/TIL/blob/main/list/Class.md)
